@@ -1,0 +1,715 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Shop All — RETRO&nbsp;BELLA</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400;0,6..96,500;0,6..96,700;1,6..96,400;1,6..96,500&family=Archivo+Expanded:wght@500;700&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<div class="grain"></div>
+<div class="cursor-dot" id="cursorDot"></div>
+
+<header id="siteHeader" class="scrolled">
+  <div class="logo">RETRO <em>BELLA</em></div>
+  <nav class="links" id="navLinks">
+    <a href="index.html">Home</a>
+    <a href="shop.html" class="is-active">Shop</a>
+    <a href="lookbook.html">Lookbook</a>
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+  <div class="header-icons">
+    <a href="login.html" class="icon-btn" aria-label="Account">
+      <svg class="icon-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="12" cy="8" r="4"/><path d="M4 20c1.8-4 5-6 8-6s6.2 2 8 6"/></svg>
+    </a>
+    <a href="#" class="icon-btn" aria-label="Cart">
+      <svg class="icon-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M3 4h2l2.4 12.2a2 2 0 002 1.8h8.2a2 2 0 002-1.7L21 8H6"/><circle cx="10" cy="21" r="1.2"/><circle cx="18" cy="21" r="1.2"/></svg>
+    </a>
+  </div>
+  <button class="menu-btn" id="menuBtn" aria-label="Toggle menu">
+    <span></span><span></span><span></span>
+  </button>
+</header>
+
+<section class="page-banner shop-banner">
+  <div class="breadcrumb"><a href="index.html">Home</a> / <span>Shop</span></div>
+  <span class="label">The Collection</span>
+  <h1>Shop All</h1>
+  <p class="sub">Small-run tailoring and considered essentials, cut for a wardrobe that moves easily from morning meetings to late dinners.</p>
+</section>
+
+<div class="filter-bar" id="filterBar">
+  <button class="filter-pill active" data-filter="all">All</button>
+  <button class="filter-pill" data-filter="women">Women</button>
+  <button class="filter-pill" data-filter="men">Men</button>
+  <button class="filter-pill" data-filter="bags">Bags</button>
+  <button class="filter-pill" data-filter="dresses">Dresses</button>
+  <button class="filter-pill" data-filter="footwear">Footwear</button>
+</div>
+
+<div class="product-grid" id="productGrid">
+
+  <!-- WOMEN -->
+  <div class="product-card" data-cat="women" style="--c1:#F7ECE4; --c2:#C9998C;">
+    <div class="product-media">
+      <img src="images/wom1.jpg" alt="Structured Blazer" onerror="this.style.display='none'">
+    </div>
+    <div class="product-info">
+      <div><h3>Structured Blazer</h3><span class="cat-label">Women</span></div>
+      <span class="product-price">$420</span>
+    </div>
+    <div class="card-actions">
+      <button type="button" class="add-cart-btn">Add to Cart</button>
+    </div>
+  </div>
+
+  <div class="product-card" data-cat="women" style="--c1:#F2E3D8; --c2:#E4CFC2;">
+    <div class="product-media">
+      <img src="images/wom2.jpg" alt="Silk Wrap Blouse" onerror="this.style.display='none'">
+    </div>
+    <div class="product-info">
+      <div><h3>Silk Wrap Blouse</h3><span class="cat-label">Women</span></div>
+      <span class="product-price">$260</span>
+    </div>
+    <div class="card-actions">
+      <button type="button" class="add-cart-btn">Add to Cart</button>
+    </div>
+  </div>
+
+  <div class="product-card" data-cat="women" style="--c1:#C9998C; --c2:#4D0909;">
+    <div class="product-media">
+      <img src="images/wom3.jpg" alt="Tapered Wool Trousers" onerror="this.style.display='none'">
+    </div>
+    <div class="product-info">
+      <div><h3>Tapered Wool Trousers</h3><span class="cat-label">Women</span></div>
+      <span class="product-price">$340</span>
+    </div>
+    <div class="card-actions">
+      <button type="button" class="add-cart-btn">Add to Cart</button>
+    </div>
+  </div>
+
+  <div class="product-card" data-cat="women" style="--c1:#F2E3D8; --c2:#B37868;">
+    <div class="product-media">
+      <img src="images/wom4.jpg" alt="Product name" onerror="this.style.display='none'">
+    </div>
+    <div class="product-info">
+      <div><h3>Product Name</h3><span class="cat-label">Women</span></div>
+      <span class="product-price">$000</span>
+    </div>
+    <div class="card-actions">
+      <button type="button" class="add-cart-btn">Add to Cart</button>
+    </div>
+  </div>
+
+  <div class="product-card" data-cat="women" style="--c1:#E4CFC2; --c2:#4D0909;">
+    <div class="product-media">
+      <img src="images/wom5.jpg" alt="Product name" onerror="this.style.display='none'">
+    </div>
+    <div class="product-info">
+      <div><h3>Product Name</h3><span class="cat-label">Women</span></div>
+      <span class="product-price">$000</span>
+    </div>
+    <div class="card-actions">
+      <button type="button" class="add-cart-btn">Add to Cart</button>
+    </div>
+  </div>
+
+  <div class="product-card" data-cat="women" style="--c1:#F7ECE4; --c2:#320606;">
+    <div class="product-media">
+      <img src="images/wom6.jpg" alt="Product name" onerror="this.style.display='none'">
+    </div>
+    <div class="product-info">
+      <div><h3>Product Name</h3><span class="cat-label">Women</span></div>
+      <span class="product-price">$000</span>
+    </div>
+    <div class="card-actions">
+      <button type="button" class="add-cart-btn">Add to Cart</button>
+    </div>
+  </div>
+
+  <div class="product-card" data-cat="women" style="--c1:#C9998C; --c2:#B37868;">
+    <div class="product-media">
+      <img src="images/wom7.jpg" alt="Product name" onerror="this.style.display='none'">
+    </div>
+    <div class="product-info">
+      <div><h3>Product Name</h3><span class="cat-label">Women</span></div>
+      <span class="product-price">$000</span>
+    </div>
+    <div class="card-actions">
+      <button type="button" class="add-cart-btn">Add to Cart</button>
+    </div>
+  </div>
+
+  <div class="product-card" data-cat="women" style="--c1:#F2E3D8; --c2:#4D0909;">
+    <div class="product-media">
+      <img src="images/wom8.jpg" alt="Product name" onerror="this.style.display='none'">
+    </div>
+    <div class="product-info">
+      <div><h3>Product Name</h3><span class="cat-label">Women</span></div>
+      <span class="product-price">$000</span>
+    </div>
+    <div class="card-actions">
+      <button type="button" class="add-cart-btn">Add to Cart</button>
+    </div>
+  </div>
+
+  <div class="product-card" data-cat="women" style="--c1:#E4CFC2; --c2:#320606;">
+    <div class="product-media">
+      <img src="images/wom9.jpg" alt="Product name" onerror="this.style.display='none'">
+    </div>
+    <div class="product-info">
+      <div><h3>Product Name</h3><span class="cat-label">Women</span></div>
+      <span class="product-price">$000</span>
+    </div>
+    <div class="card-actions">
+      <button type="button" class="add-cart-btn">Add to Cart</button>
+    </div>
+  </div>
+
+  <div class="product-card" data-cat="women" style="--c1:#F7ECE4; --c2:#B37868;">
+    <div class="product-media">
+      <img src="images/wom10.jpg" alt="Product name" onerror="this.style.display='none'">
+    </div>
+    <div class="product-info">
+      <div><h3>Product Name</h3><span class="cat-label">Women</span></div>
+      <span class="product-price">$000</span>
+    </div>
+    <div class="card-actions">
+      <button type="button" class="add-cart-btn">Add to Cart</button>
+    </div>
+  </div>
+
+  <!-- MEN -->
+  <div class="product-card" data-cat="men" style="--c1:#B37868; --c2:#4D0909;">
+    <div class="product-media">
+      <img src="images/men1.jpeg" alt="Men's overcoat" onerror="this.style.display='none'">
+    </div>
+    <div class="product-info">
+      <div><h3>Half-Black Knitted Collar Shirt</h3><span class="cat-label">Men</span></div>
+      <span class="product-price">$560</span>
+    </div>
+    <div class="card-actions">
+      <button type="button" class="add-cart-btn">Add to Cart</button>
+    </div>
+  </div>
+
+  <div class="product-card" data-cat="men" style="--c1:#E4CFC2; --c2:#4D0909;">
+    <div class="product-media">
+      <img src="images/men2.jpeg" alt="Men's knitwear" onerror="this.style.display='none'">
+    </div>
+    <div class="product-info">
+      <div><h3>Half-White Knitted Collar Shirt</h3><span class="cat-label">Men</span></div>
+      <span class="product-price">$190</span>
+    </div>
+    <div class="card-actions">
+      <button type="button" class="add-cart-btn">Add to Cart</button>
+    </div>
+  </div>
+
+  <div class="product-card" data-cat="men" style="--c1:#320606; --c2:#320606;">
+    <div class="product-media">
+      <img src="images/men3.jpeg" alt="Men's trousers" onerror="this.style.display='none'">
+    </div>
+    <div class="product-info">
+      <div><h3>Black T-Shirt</h3><span class="cat-label">Men</span></div>
+      <span class="product-price">$310</span>
+    </div>
+    <div class="card-actions">
+      <button type="button" class="add-cart-btn">Add to Cart</button>
+    </div>
+  </div>
+
+  <div class="product-card" data-cat="men" style="--c1:#B37868; --c2:#4D0909;">
+    <div class="product-media">
+      <img src="images/men4.jpeg" alt="Men's overcoat" onerror="this.style.display='none'">
+    </div>
+    <div class="product-info">
+      <div><h3>Knitted Brown Shirt</h3><span class="cat-label">Men</span></div>
+      <span class="product-price">$560</span>
+    </div>
+    <div class="card-actions">
+      <button type="button" class="add-cart-btn">Add to Cart</button>
+    </div>
+  </div>
+
+  <div class="product-card" data-cat="men" style="--c1:#B37868; --c2:#4D0909;">
+    <div class="product-media">
+      <img src="images/men5.jpeg" alt="Men's overcoat" onerror="this.style.display='none'">
+    </div>
+    <div class="product-info">
+      <div><h3>Cotton Half Sleeved Black Shirt</h3><span class="cat-label">Men</span></div>
+      <span class="product-price">$560</span>
+    </div>
+    <div class="card-actions">
+      <button type="button" class="add-cart-btn">Add to Cart</button>
+    </div>
+  </div>
+
+  <div class="product-card" data-cat="men" style="--c1:#B37868; --c2:#4D0909;">
+    <div class="product-media">
+      <img src="images/men6.jpeg" alt="Men's overcoat" onerror="this.style.display='none'">
+    </div>
+    <div class="product-info">
+      <div><h3>Full Sleeves White Shirt</h3><span class="cat-label">Men</span></div>
+      <span class="product-price">$560</span>
+    </div>
+    <div class="card-actions">
+      <button type="button" class="add-cart-btn">Add to Cart</button>
+    </div>
+  </div>
+
+  <div class="product-card" data-cat="men" style="--c1:#B37868; --c2:#4D0909;">
+    <div class="product-media">
+      <img src="images/men7.jpeg" alt="Men's overcoat" onerror="this.style.display='none'">
+    </div>
+    <div class="product-info">
+      <div><h3>White Shirt with Black Stripes</h3><span class="cat-label">Men</span></div>
+      <span class="product-price">$560</span>
+    </div>
+    <div class="card-actions">
+      <button type="button" class="add-cart-btn">Add to Cart</button>
+    </div>
+  </div>
+
+  <div class="product-card" data-cat="men" style="--c1:#B37868; --c2:#4D0909;">
+    <div class="product-media">
+      <img src="images/men8.jpeg" alt="Men's overcoat" onerror="this.style.display='none'">
+    </div>
+    <div class="product-info">
+      <div><h3>Sea-Blue Cotton Shirt</h3><span class="cat-label">Men</span></div>
+      <span class="product-price">$560</span>
+    </div>
+    <div class="card-actions">
+      <button type="button" class="add-cart-btn">Add to Cart</button>
+    </div>
+  </div>
+
+  <div class="product-card" data-cat="men" style="--c1:#B37868; --c2:#4D0909;">
+    <div class="product-media">
+      <img src="images/men9.jpeg" alt="Men's overcoat" onerror="this.style.display='none'">
+    </div>
+    <div class="product-info">
+      <div><h3>Designer Full Sleeves Shirt</h3><span class="cat-label">Men</span></div>
+      <span class="product-price">$560</span>
+    </div>
+    <div class="card-actions">
+      <button type="button" class="add-cart-btn">Add to Cart</button>
+    </div>
+  </div>
+
+  <div class="product-card" data-cat="men" style="--c1:#B37868; --c2:#4D0909;">
+    <div class="product-media">
+      <img src="images/men10.jpeg" alt="Men's overcoat" onerror="this.style.display='none'">
+    </div>
+    <div class="product-info">
+      <div><h3>Mahroon-textured Hald Sleeved Shirt</h3><span class="cat-label">Men</span></div>
+      <span class="product-price">$560</span>
+    </div>
+    <div class="card-actions">
+      <button type="button" class="add-cart-btn">Add to Cart</button>
+    </div>
+  </div>
+
+  <div class="product-card" data-cat="men" style="--c1:#B37868; --c2:#4D0909;">
+    <div class="product-media">
+      <img src="images/men11.jpeg" alt="Men's overcoat" onerror="this.style.display='none'">
+    </div>
+    <div class="product-info">
+      <div><h3>Acid-Wash Black T-Shirt</h3><span class="cat-label">Men</span></div>
+      <span class="product-price">$560</span>
+    </div>
+    <div class="card-actions">
+      <button type="button" class="add-cart-btn">Add to Cart</button>
+    </div>
+  </div>
+
+  <div class="product-card" data-cat="men" style="--c1:#B37868; --c2:#4D0909;">
+    <div class="product-media">
+      <img src="images/men12.jpeg" alt="Men's overcoat" onerror="this.style.display='none'">
+    </div>
+    <div class="product-info">
+      <div><h3>Knitted Polo Navy Blue T-Shirt</h3><span class="cat-label">Men</span></div>
+      <span class="product-price">$560</span>
+    </div>
+    <div class="card-actions">
+      <button type="button" class="add-cart-btn">Add to Cart</button>
+    </div>
+  </div>
+
+  <!-- BAGS -->
+  <div class="product-card" data-cat="bags" style="--c1:#E4CFC2; --c2:#4D0909;">
+    <div class="product-media">
+      <img class="fit-contain" src="images/bag1.png" alt="Crystal bead top-handle bag" onerror="this.style.display='none'">
+    </div>
+    <div class="product-info">
+      <div><h3>Crystal Bead Top-Handle Bag</h3><span class="cat-label">Bags</span></div>
+      <span class="product-price">$395</span>
+    </div>
+    <div class="card-actions">
+      <button type="button" class="add-cart-btn">Add to Cart</button>
+    </div>
+  </div>
+
+  <div class="product-card" data-cat="bags" style="--c1:#F2E3D8; --c2:#C9998C;">
+    <div class="product-media">
+      <img class="fit-contain" src="images/bag2.png" alt="Tapestry chain shoulder bag" onerror="this.style.display='none'">
+    </div>
+    <div class="product-info">
+      <div><h3>Tapestry Chain Shoulder Bag</h3><span class="cat-label">Bags</span></div>
+      <span class="product-price">$550</span>
+    </div>
+    <div class="card-actions">
+      <button type="button" class="add-cart-btn">Add to Cart</button>
+    </div>
+  </div>
+
+  <div class="product-card" data-cat="bags" style="--c1:#C9998C; --c2:#320606;">
+    <div class="product-media">
+      <img class="fit-contain" src="images/bag3.png" alt="Suede shearling hobo bag" onerror="this.style.display='none'">
+    </div>
+    <div class="product-info">
+      <div><h3>Suede Shearling Hobo</h3><span class="cat-label">Bags</span></div>
+      <span class="product-price">$475</span>
+    </div>
+    <div class="card-actions">
+      <button type="button" class="add-cart-btn">Add to Cart</button>
+    </div>
+  </div>
+
+  <div class="product-card" data-cat="bags" style="--c1:#F7ECE4; --c2:#B37868;">
+    <div class="product-media">
+      <img class="fit-contain" src="images/bag4.png" alt="Floral saddle bag" onerror="this.style.display='none'">
+    </div>
+    <div class="product-info">
+      <div><h3>Floral Saddle Bag</h3><span class="cat-label">Bags</span></div>
+      <span class="product-price">$625</span>
+    </div>
+    <div class="card-actions">
+      <button type="button" class="add-cart-btn">Add to Cart</button>
+    </div>
+  </div>
+
+  <div class="product-card" data-cat="bags" style="--c1:#E4CFC2; --c2:#C9998C;">
+    <div class="product-media">
+      <img class="fit-contain" src="images/bag5.png" alt="Floral sequin shoulder bag" onerror="this.style.display='none'">
+    </div>
+    <div class="product-info">
+      <div><h3>Floral Sequin Shoulder Bag</h3><span class="cat-label">Bags</span></div>
+      <span class="product-price">$410</span>
+    </div>
+    <div class="card-actions">
+      <button type="button" class="add-cart-btn">Add to Cart</button>
+    </div>
+  </div>
+
+  <div class="product-card" data-cat="bags" style="--c1:#320606; --c2:#320606;">
+    <div class="product-media">
+      <img class="fit-contain" src="images/bag6.png" alt="Tweed classic flap bag" onerror="this.style.display='none'">
+    </div>
+    <div class="product-info">
+      <div><h3>Tweed Classic Flap</h3><span class="cat-label">Bags</span></div>
+      <span class="product-price">$790</span>
+    </div>
+    <div class="card-actions">
+      <button type="button" class="add-cart-btn">Add to Cart</button>
+    </div>
+  </div>
+
+  <div class="product-card" data-cat="bags" style="--c1:#F7ECE4; --c2:#B37868;">
+    <div class="product-media">
+      <img class="fit-contain" src="images/bag7.png" alt="Sunset Woven Shoulder Bag" onerror="this.style.display='none'">
+    </div>
+    <div class="product-info">
+      <div><h3>Sunset Woven Shoulder Bag</h3><span class="cat-label">Bags</span></div>
+      <span class="product-price">$610</span>
+    </div>
+    <div class="card-actions">
+      <button type="button" class="add-cart-btn">Add to Cart</button>
+    </div>
+  </div>
+
+  <div class="product-card" data-cat="bags" style="--c1:#E4CFC2; --c2:#4D0909;">
+    <div class="product-media">
+      <img class="fit-contain" src="images/bag8.png" alt="Striped crochet tote" onerror="this.style.display='none'">
+    </div>
+    <div class="product-info">
+      <div><h3>Striped Crochet Tote</h3><span class="cat-label">Bags</span></div>
+      <span class="product-price">$340</span>
+    </div>
+    <div class="card-actions">
+      <button type="button" class="add-cart-btn">Add to Cart</button>
+    </div>
+  </div>
+
+  <!-- DRESSES -->
+  <div class="product-card" data-cat="dresses" style="--c1:#E4CFC2; --c2:#4D0909;">
+    <div class="product-media">
+      <img class="fit-contain" src="images/dress1.png" alt="Satin lace-trim slip dress" onerror="this.style.display='none'">
+    </div>
+    <div class="product-info">
+      <div><h3>Satin Lace-Trim Slip Dress</h3><span class="cat-label">Dresses</span></div>
+      <span class="product-price">$340</span>
+    </div>
+    <div class="card-actions">
+      <button type="button" class="add-cart-btn">Add to Cart</button>
+    </div>
+  </div>
+
+  <div class="product-card" data-cat="dresses" style="--c1:#320606; --c2:#320606;">
+    <div class="product-media">
+      <img class="fit-contain" src="images/dress2.png" alt="Tweed halter peplum dress" onerror="this.style.display='none'">
+    </div>
+    <div class="product-info">
+      <div><h3>Tweed Halter Peplum Dress</h3><span class="cat-label">Dresses</span></div>
+      <span class="product-price">$455</span>
+    </div>
+    <div class="card-actions">
+      <button type="button" class="add-cart-btn">Add to Cart</button>
+    </div>
+  </div>
+
+  <div class="product-card" data-cat="dresses" style="--c1:#F7ECE4; --c2:#C9998C;">
+    <div class="product-media">
+      <img class="fit-contain" src="images/dress3.png" alt="Ombre sequin mini dress" onerror="this.style.display='none'">
+    </div>
+    <div class="product-info">
+      <div><h3>Ombré Sequin Mini Dress</h3><span class="cat-label">Dresses</span></div>
+      <span class="product-price">$520</span>
+    </div>
+    <div class="card-actions">
+      <button type="button" class="add-cart-btn">Add to Cart</button>
+    </div>
+  </div>
+
+  <div class="product-card" data-cat="dresses" style="--c1:#F2E3D8; --c2:#B37868;">
+    <div class="product-media">
+      <img class="fit-contain" src="images/dress4.png" alt="One-shoulder satin gown" onerror="this.style.display='none'">
+    </div>
+    <div class="product-info">
+      <div><h3>One-Shoulder Satin Gown</h3><span class="cat-label">Dresses</span></div>
+      <span class="product-price">$780</span>
+    </div>
+    <div class="card-actions">
+      <button type="button" class="add-cart-btn">Add to Cart</button>
+    </div>
+  </div>
+
+  <div class="product-card" data-cat="dresses" style="--c1:#B37868; --c2:#320606;">
+    <div class="product-media">
+      <img class="fit-contain" src="images/dress5.png" alt="Plunge sequin halter dress" onerror="this.style.display='none'">
+    </div>
+    <div class="product-info">
+      <div><h3>Plunge Sequin Halter Dress</h3><span class="cat-label">Dresses</span></div>
+      <span class="product-price">$410</span>
+    </div>
+    <div class="card-actions">
+      <button type="button" class="add-cart-btn">Add to Cart</button>
+    </div>
+  </div>
+
+  <div class="product-card" data-cat="dresses" style="--c1:#E4CFC2; --c2:#4D0909;">
+    <div class="product-media">
+      <img class="fit-contain" src="images/dress6.png" alt="Polka dot halter mini dress" onerror="this.style.display='none'">
+    </div>
+    <div class="product-info">
+      <div><h3>Polka Dot Halter Mini Dress</h3><span class="cat-label">Dresses</span></div>
+      <span class="product-price">$295</span>
+    </div>
+    <div class="card-actions">
+      <button type="button" class="add-cart-btn">Add to Cart</button>
+    </div>
+  </div>
+
+   <div class="product-card" data-cat="dresses" style="--c1:#E4CFC2; --c2:#4D0909;">
+    <div class="product-media">
+      <img class="fit-contain" src="images/dress7.png" alt="Ivory Bow Tweed Mini Dress" onerror="this.style.display='none'">
+    </div>
+    <div class="product-info">
+      <div><h3>Ivory Bow Tweed Mini Dress</h3><span class="cat-label">Dresses</span></div>
+      <span class="product-price">$800</span>
+    </div>
+    <div class="card-actions">
+      <button type="button" class="add-cart-btn">Add to Cart</button>
+    </div>
+  </div>
+  <!-- FOOTWEAR -->
+  <div class="product-card" data-cat="footwear" style="--c1:#4E8E86; --c2:#4D0909;">
+    <div class="product-media">
+      <img class="fit-contain" src="images/shoe1.png" alt="Turquoise floral strappy sandal" onerror="this.style.display='none'">
+    </div>
+    <div class="product-info">
+      <div><h3>Bloom Strap Sandal</h3><span class="cat-label">Footwear</span></div>
+      <span class="product-price">$890</span>
+    </div>
+    <div class="card-actions">
+      <button type="button" class="add-cart-btn">Add to Cart</button>
+    </div>
+  </div>
+
+  <div class="product-card" data-cat="footwear" style="--c1:#E8C948; --c2:#C9337A;">
+    <div class="product-media">
+      <img class="fit-contain" src="images/shoe2.png" alt="Ombre crystal pointed pump" onerror="this.style.display='none'">
+    </div>
+    <div class="product-info">
+      <div><h3>Ombré Crystal Pump</h3><span class="cat-label">Footwear</span></div>
+      <span class="product-price">$1,450</span>
+    </div>
+    <div class="card-actions">
+      <button type="button" class="add-cart-btn">Add to Cart</button>
+    </div>
+  </div>
+
+  <div class="product-card" data-cat="footwear" style="--c1:#E8C9DD; --c2:#8A6E96;">
+    <div class="product-media">
+      <img class="fit-contain" src="images/shoe3.png" alt="Lilac beaded fringe sandal" onerror="this.style.display='none'">
+    </div>
+    <div class="product-info">
+      <div><h3>Lilac Fringe Sandal</h3><span class="cat-label">Footwear</span></div>
+      <span class="product-price">$980</span>
+    </div>
+    <div class="card-actions">
+      <button type="button" class="add-cart-btn">Add to Cart</button>
+    </div>
+  </div>
+
+  <div class="product-card" data-cat="footwear" style="--c1:#1F2E4A; --c2:#C9998C;">
+    <div class="product-media">
+      <img class="fit-contain" src="images/shoe4.png" alt="Denim monogram ankle-strap sandal" onerror="this.style.display='none'">
+    </div>
+    <div class="product-info">
+      <div><h3>Denim Monogram Sandal</h3><span class="cat-label">Footwear</span></div>
+      <span class="product-price">$1,290</span>
+    </div>
+    <div class="card-actions">
+      <button type="button" class="add-cart-btn">Add to Cart</button>
+    </div>
+  </div>
+
+  <div class="product-card" data-cat="footwear" style="--c1:#3B2417; --c2:#4D0909;">
+    <div class="product-media">
+      <img class="fit-contain" src="images/shoe5.png" alt="Slouch knee-high leather boot" onerror="this.style.display='none'">
+    </div>
+    <div class="product-info">
+      <div><h3>Slouch Knee-High Boot</h3><span class="cat-label">Footwear</span></div>
+      <span class="product-price">$760</span>
+    </div>
+    <div class="card-actions">
+      <button type="button" class="add-cart-btn">Add to Cart</button>
+    </div>
+  </div>
+
+  <div class="product-card" data-cat="footwear" style="--c1:#F2D97B; --c2:#C9998C;">
+    <div class="product-media">
+      <img class="fit-contain" src="images/shoe6.png" alt="Butter yellow slide sandal" onerror="this.style.display='none'">
+    </div>
+    <div class="product-info">
+      <div><h3>Butter Yellow Slide</h3><span class="cat-label">Footwear</span></div>
+      <span class="product-price">$650</span>
+    </div>
+    <div class="card-actions">
+      <button type="button" class="add-cart-btn">Add to Cart</button>
+    </div>
+  </div>
+
+  <div class="product-card" data-cat="footwear" style="--c1:#5A1414; --c2:#C9998C;">
+    <div class="product-media">
+      <img class="fit-contain" src="images/shoe7.png" alt="Burgundy bow slingback pump" onerror="this.style.display='none'">
+    </div>
+    <div class="product-info">
+      <div><h3>Bow Slingback Pump</h3><span class="cat-label">Footwear</span></div>
+      <span class="product-price">$890</span>
+    </div>
+    <div class="card-actions">
+      <button type="button" class="add-cart-btn">Add to Cart</button>
+    </div>
+  </div>
+
+  <div class="product-card" data-cat="footwear" style="--c1:#1E4A3A; --c2:#4D0909;">
+    <div class="product-media">
+      <img class="fit-contain" src="images/shoe8.png" alt="Emerald green retro sneaker" onerror="this.style.display='none'">
+    </div>
+    <div class="product-info">
+      <div><h3>Emerald Retro Sneaker</h3><span class="cat-label">Footwear</span></div>
+      <span class="product-price">$120</span>
+    </div>
+    <div class="card-actions">
+      <button type="button" class="add-cart-btn">Add to Cart</button>
+    </div>
+  </div>
+
+  <div class="product-card" data-cat="footwear" style="--c1:#E58BA6; --c2:#8A1F3D;">
+    <div class="product-media">
+      <img class="fit-contain" src="images/shoe9.png" alt="Pink toile print slide sandal" onerror="this.style.display='none'">
+    </div>
+    <div class="product-info">
+      <div><h3>Toile Print Slide</h3><span class="cat-label">Footwear</span></div>
+      <span class="product-price">$650</span>
+    </div>
+    <div class="card-actions">
+      <button type="button" class="add-cart-btn">Add to Cart</button>
+    </div>
+  </div>
+
+  <div class="product-card" data-cat="footwear" style="--c1:#B6D98A; --c2:#4D0909;">
+    <div class="product-media">
+      <img class="fit-contain" src="images/shoe10.png" alt="Pistachio crystal mule" onerror="this.style.display='none'">
+    </div>
+    <div class="product-info">
+      <div><h3>Pistachio Crystal Mule</h3><span class="cat-label">Footwear</span></div>
+      <span class="product-price">$980</span>
+    </div>
+    <div class="card-actions">
+      <button type="button" class="add-cart-btn">Add to Cart</button>
+    </div>
+  </div>
+
+</div>
+
+<p class="empty-note" id="emptyNote">No pieces in this category yet — check back soon.</p>
+
+<footer>
+  <div class="brand">
+    <h3>RETRO <em style="color:var(--sangria)">BELLA</em></h3>
+    <p>A New York / Paris fashion house designing for the space between two cities.</p>
+  </div>
+  <div>
+    <span class="label">Shop</span>
+    <ul>
+      <li><a href="shop.html">New Arrivals</a></li>
+      <li><a href="shop.html">Outerwear</a></li>
+      <li><a href="shop.html">Footwear</a></li>
+    </ul>
+  </div>
+  <div>
+    <span class="label">House</span>
+    <ul>
+      <li><a href="about.html">About</a></li>
+      <li><a href="lookbook.html">Lookbook</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </div>
+  <div>
+    <span class="label">Follow</span>
+    <ul>
+      <li><a href="#">Instagram</a></li>
+      <li><a href="#">Pinterest</a></li>
+      <li><a href="#">TikTok</a></li>
+    </ul>
+  </div>
+  <div class="footer-bottom">
+    <span>© 2026 Retro Bella. All rights reserved.</span>
+    <span>New York — Paris</span>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+<script src="js/shop.js"></script>
+
+</body>
+</html>
